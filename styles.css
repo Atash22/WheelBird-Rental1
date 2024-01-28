@@ -1,0 +1,164 @@
+/* Reset styles */
+body {
+    font-family: 'Ubuntu', serif;
+    background-color: hsl(180, 46%, 88%);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* General heading style */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Navigation styles */
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+nav img {
+    height: 100px;
+    width: 120px;
+    margin: 10px auto 10px 10px;
+    border-radius: 8px;
+}
+
+
+/* Mission section styles */
+.mission {
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1489595672898-26572ba975a3?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 600px;
+    background-size: cover;
+    background-position: 40% 60%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content h2 {
+    margin-top: 200px;
+    padding-left: 150px;
+    text-align: center;
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+/* Portfolios section styles */
+.portfolios {
+    display: flex;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolios img {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    float: left;
+    border: 5px solid white;
+    border-radius: 12px;
+}
+
+.portfolios img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.text-box {
+    max-width: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.small-car {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* Team section styles */
+.team {
+    min-height: 50vh;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(170, 43%, 51%);
+    color: hsl(174, 9%, 23%);
+    font-weight: bold;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team img {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    float: left;
+    border: 5px solid white;
+    border-radius: 12px;
+    
+}
+
+.team-member p {
+    margin-top: 20px;
+}
+
+
+/* Investors section styles */
+.investors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.investors img {
+    width: 150px;
+    height: 100px;
+    object-fit: full;
+}
+
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
